@@ -6,8 +6,8 @@
 //  Copyright (c) Sam Soffes 2010-2015. All rights reserved.
 //
 #import "SSZipArchive.h"
-#import "./minzip/unzip.h"
-#import "./minzip/zip.h"
+#import <unzip.h>
+#import <zip.h>
 #import "zlib.h"
 #import "zconf.h"
 
